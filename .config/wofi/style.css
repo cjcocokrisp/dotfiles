@@ -1,0 +1,42 @@
+window {
+	padding: 50px;
+	background-color: rgba(30, 29, 30, 0.8);
+}
+
+#input {
+	padding: 10px 20px;
+	background-color: rgba(65, 63, 110, 0.3);
+	border-radius: 20px;
+	margin: 20px 15px;
+	border-color: rgba(177, 79, 80, 0.3);
+}
+
+#input:focus,
+#input,selected,
+#entry:selected
+
+#inner-box {
+	margin: 20px;
+}
+
+#img {
+	margin: 10px 10px;
+}
+
+#entry {
+	border-radius: 20px;
+}
+
+#text {
+	color: rgb(255, 255, 255);
+}
+
+#text:selected,
+#img:selected {
+	background-color: transparent;
+}
+
+#entry:selected {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
